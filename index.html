@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stein Saks Papir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+
+        <h1>Rock Paper Scissors</h1>
+
+    </div>
+
+    <div id="textThatSaysScore">Score:</div>
+
+    <div class="scoreBoard">
+        
+        <span id="user" class="players">   You</span>
+        <span id="userScore">0</span>:<span id="botScore">0</span>
+        <span id="computer" class="players">Comp</span>
+
+    </div>
+
+    <div class="wonOrLostText" id="wonOrLostText">
+        <p></p>
+    </div>
+
+    <div class="choiches">
+
+        <div class="choice" id="rock">
+            <img src="images/rock.png" onclick="selectedAlternative('rock')">
+        </div>
+        <div class="choice" id="paper">
+            <img src="images/paper.png" onclick="selectedAlternative('paper')">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="images/scissors.png" onclick="selectedAlternative('scissors')">
+        </div>
+
+    </div>
+
+    <div id="message">Whats your move?</div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
